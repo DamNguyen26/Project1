@@ -77,7 +77,7 @@ $stmt->close();
                 <div class="w3-card w3-round w3-white">
                     <div class="w3-container">
                         <h4 class="w3-center">My Profile</h4>
-                        <p class="w3-center"><img src='images/<?= $image ?>' class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+                        <p class="w3-center"><img src='../images/<?= $image ?>' class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
                         <hr>
                         <p><i class="fa fa-user fa-fw w3-margin-right w3-text-theme"></i>
                             <td><?= $name ?></td>
@@ -149,7 +149,7 @@ $stmt->close();
                     <div class="w3-card w3-round w3-white w3-center">
                         <div class="w3-container">
                             <p>Admin</p>
-                            <img src='images/<?= $data["image"] ?>' alt="Avatar" style="width:50%"><br>
+                            <img src='../images/<?= $data["image"] ?>' alt="Avatar" style="width:50%"><br>
                             <span><?php echo $data["name"] ?></span>
                             <div class="w3-row w3-opacity">
                                 <div class="w3-half">

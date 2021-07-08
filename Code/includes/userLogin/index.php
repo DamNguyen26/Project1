@@ -224,7 +224,7 @@ input.user-password{
     </div>
 
 
-    <!-- <div class="content">
+    <div class="content">
         <h2>Profile Page</h2>
         <p>Welcome back, <?= $_SESSION['name'] ?>!</p>
 
@@ -258,7 +258,7 @@ input.user-password{
             </table>
             <p>To go <a href="../../admin/admin.php" class="w3-hover-text-green">admin</a> page</p>
         </div>
-    </div> -->
+    </div>
 </body>
 
 </html>
